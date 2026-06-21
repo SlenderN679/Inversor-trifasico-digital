@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_19724294"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-23-06:14:45)
+    (utime 2025-09-30-11:42:00)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SK_129_25_4_STS")
+)
+
+
+(pinAssign "ECS_19724294"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-23-06:14:45)
+    (utime 2025-09-30-11:42:00)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19724294")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SK_129_25_4_STS")
+)
+
+
+(part "SK_129_25_4_STS"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-23-06:14:45)
+    (utime 2025-09-30-11:42:00)
+    (packageRef "SK_129_25_4_STS")
+    (pinAssignRef "ECS_19724294")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "U")
+    (property "description" "Extruded heatsink for PCB mounting")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Fischer Elektronik GmbH & Co. KG")
+    (property "Manufacturer_Part_Number" "SK 129 25,4 STS")
+    (property "Datasheet_Link" "https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml")
+)
+
+

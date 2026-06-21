@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SK_129_25_4_STS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-09-30-11:42:00)
+    (mountForm default
+        (footprintRef "SK129254STS")
+        (spec "System")
+    )
+)

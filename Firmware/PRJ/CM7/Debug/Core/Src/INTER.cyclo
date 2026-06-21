@@ -1,0 +1,5 @@
+../Core/Src/INTER.c:25:5:Telemetry_Build_JSON	1
+../Core/Src/INTER.c:32:5:Raw_Telemetry_Build_JSON	1
+../Core/Src/INTER.c:44:5:AFE_Telemetry_Build_JSON	2
+../Core/Src/INTER.c:56:5:Inverter_Telemetry_Build_JSON	2
+../Core/Src/INTER.c:68:6:Update_Interface	4

@@ -1,0 +1,124 @@
+(footprint "C4AF9BW5100T3JK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "97076771-efda-4b2e-a913-94664c6bd138")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C4AF9BW5100T3JK"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3ff47a13-a47c-492c-9446-95e9cffb9389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e6f0a3-c1fe-4234-865e-4b2ca4b356a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d02df98-b7a6-4359-b24e-5d647ac3ea28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -21 -14)
+		(end 21 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "076b70af-0495-4820-b9b1-afe06b65f937")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "66b4b967-0af4-45b7-98f4-04c796407ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -18.75 -5.1)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7761dae1-b755-4763-8e18-df7e930cff90")
+	)
+	(pad "1" thru_hole circle
+		(at -18.75 5.1)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "339e5fd7-567e-4c40-a7a7-2ff4bae86506")
+	)
+	(pad "2" thru_hole circle
+		(at 18.75 -5.1)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2e83f24-5bc2-47e0-9434-7f65fd04b28e")
+	)
+	(pad "2" thru_hole circle
+		(at 18.75 5.1)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20a324cc-d14e-43ab-903f-041d866f7b1b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/C4AF9BW5100T3JK.step"
+		(offset
+			(xyz 21.5 -14.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

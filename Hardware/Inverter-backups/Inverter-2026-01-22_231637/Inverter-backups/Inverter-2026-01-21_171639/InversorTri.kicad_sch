@@ -1,0 +1,1779 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "49f81fe3-1fc9-4777-a9e6-bd2022dda1d4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:Heatsink_Pad"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink_Pad"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink with electrical connection, 1 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_Pad_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Transistor_IGBT_AKL:STGW60V60DF"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STGW60V60DF"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-247-3_Vertical_GCE"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor IGBT N-IGBT STGW60V60DF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STGW60V60DF_0_1"
+				(polyline
+					(pts
+						(xy -2.794 1.27) (xy -2.794 -1.27) (xy -2.794 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -1.905 -1.905) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 0 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.508 0)
+					(radius 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.762) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 1.778 -0.762) (xy 1.016 0.762) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "STGW60V60DF_1_1"
+				(circle
+					(center 0 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 4.8)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 203.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20b08d4b-243f-4cdb-80e5-81bc50ba88c4")
+	)
+	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a1020f-708e-41a2-8c1f-435e08b73115")
+	)
+	(junction
+		(at 163.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d7361e-0cb6-4782-b0d0-41ae896fb736")
+	)
+	(junction
+		(at 123.19 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98df9116-20d7-430a-b0f2-cd4ad79d41ff")
+	)
+	(junction
+		(at 123.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4765490-eb66-4e66-8591-8fdab6f04b8f")
+	)
+	(junction
+		(at 163.83 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8257378-3686-49d7-9b48-b7fb2f66669e")
+	)
+	(junction
+		(at 123.19 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea2ce3f4-dce8-4226-978f-f38cf70abd7e")
+	)
+	(wire
+		(pts
+			(xy 203.2 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b034db-5e0d-4947-b5a6-6f419307847c")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ba4ec1-c017-46b8-b5b7-bf054300176e")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab1ed15-b3ec-4177-ad56-9dcb026d91b6")
+	)
+	(wire
+		(pts
+			(xy 203.2 92.71) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34699b4b-58bc-44da-a17a-e0df7d2cc0f5")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363f7a41-a63e-4a5e-80b9-255347befc44")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2e320a-6a62-4c36-9eb5-2433d88a7934")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7dcb1a-8fed-42b4-8308-a7901b2b6a14")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800329bb-fe75-4897-8494-ccccc57b11e5")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8e576d-ba97-4815-8bd9-9f9c012d484b")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948c4ad2-c3a3-4db4-a9d6-a70222939842")
+	)
+	(wire
+		(pts
+			(xy 203.2 80.01) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c61e52-6a36-46ce-b347-1df03d7567a4")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b322949d-47a5-47e9-ac32-353265c7a211")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97bcb5a-2d73-4cb0-a1ad-5f88249c2ff9")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a27831-2b18-4715-924e-aafc18edd1e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdcc9c9-a950-4a77-8f7e-419e44ebdfd7")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a49c98-240a-484e-ae9f-685a61f1f95b")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad4b00f-d9d4-4069-87f6-d6f09b91d715")
+	)
+	(wire
+		(pts
+			(xy 123.19 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc7be8a-0a70-41b0-9b9a-1438c157a6d5")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0af4be0-afe7-4184-b8a3-6c3bfc2ee773")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0dd175-8681-4e8f-a87c-380b47f09a83")
+	)
+	(hierarchical_label "REF5"
+		(shape input)
+		(at 203.2 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "480a98c6-7517-4b12-b415-5ef6352fb3ae")
+	)
+	(hierarchical_label "OutC"
+		(shape input)
+		(at 223.52 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d726d58-ee8d-409d-b95d-d14296c856b5")
+	)
+	(hierarchical_label "OutA"
+		(shape input)
+		(at 223.52 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e0d0ae3-dc06-4fa5-872a-1375554a5039")
+	)
+	(hierarchical_label "Q4"
+		(shape input)
+		(at 156.21 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57a7976d-9a59-4727-a965-6099bcfaa439")
+	)
+	(hierarchical_label "Q2"
+		(shape input)
+		(at 115.57 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58e3d19a-e5f8-4773-b899-4f1cab2f4a77")
+	)
+	(hierarchical_label "In+"
+		(shape input)
+		(at 88.9 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "633efbee-d60c-4295-9636-3db8c19b6527")
+	)
+	(hierarchical_label "OutB"
+		(shape input)
+		(at 223.52 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7757bb6b-491e-452c-9fff-a52dd016b1be")
+	)
+	(hierarchical_label "REF4"
+		(shape input)
+		(at 163.83 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7aeef4e7-0b9e-4f51-819a-ccd70c3342ea")
+	)
+	(hierarchical_label "REF6"
+		(shape input)
+		(at 203.2 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82678538-d065-46f7-bf9e-3b81b97a6d2d")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 115.57 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "950e1fea-35bb-406c-9ba1-7256363b04a3")
+	)
+	(hierarchical_label "REF1"
+		(shape input)
+		(at 123.19 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a13c42ad-5c12-44f6-bcb1-95c7a3b6a4d0")
+	)
+	(hierarchical_label "Q5"
+		(shape input)
+		(at 195.58 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b157a22c-6eca-4191-a46e-ccd6a25a7750")
+	)
+	(hierarchical_label "Q3"
+		(shape input)
+		(at 156.21 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5813a3a-af61-47c1-9d1e-96ad3c1261ec")
+	)
+	(hierarchical_label "Q6"
+		(shape input)
+		(at 195.58 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c60288eb-c142-4f90-ad03-47501e81665d")
+	)
+	(hierarchical_label "REF3"
+		(shape input)
+		(at 163.83 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfa0486a-46d8-4c72-92cc-4126c86d4442")
+	)
+	(hierarchical_label "In-"
+		(shape input)
+		(at 88.9 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daa85d0a-6c81-46cf-b401-d3ff383f0c78")
+	)
+	(hierarchical_label "REF2"
+		(shape input)
+		(at 123.19 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eef46e0d-e5b5-485a-91f5-14583dd93821")
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f564cf-10af-4804-a77d-803cd4410e63")
+		(property "Reference" "Q2"
+			(at 127 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 127 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4b9f")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73ac7")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f3")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 203.2 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bff5d68-6485-4aeb-980c-99d965b275ae")
+		(property "Reference" "Q6"
+			(at 207.01 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 207.01 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4ba0")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73ac8")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f4")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 203.2 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f24b573-2f27-4861-9a1c-14b0ff436703")
+		(property "Reference" "Q5"
+			(at 207.01 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 207.01 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4ba1")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73ac9")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f5")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 203.2 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4203c2ae-ea85-4af1-87a6-ed2f0372b73b")
+		(property "Reference" "HS6"
+			(at 207.01 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 207.01 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 203.5048 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.5048 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b281")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 163.83 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48cb6833-3edd-422a-a698-042b154ccb8d")
+		(property "Reference" "HS4"
+			(at 167.64 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 167.64 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 164.1348 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.1348 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b282")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 163.83 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e83027-9c0c-4227-b686-8b731c72fe1e")
+		(property "Reference" "Q4"
+			(at 167.64 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 167.64 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 163.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 163.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 163.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4ba2")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73aca")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f6")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 163.83 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5705a361-6376-4b37-a41c-fbb41d64a563")
+		(property "Reference" "Q3"
+			(at 167.64 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 167.64 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4ba3")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73acb")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f7")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 163.83 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57dba246-e367-4319-a64f-ba3587376398")
+		(property "Reference" "HS3"
+			(at 167.64 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 167.64 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 164.1348 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.1348 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b283")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 123.19 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd44e42-c791-4d0c-9a6e-0a8148b24283")
+		(property "Reference" "HS1"
+			(at 127 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 127 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 123.4948 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.4948 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b284")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 123.19 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a13b2887-cc79-4afc-95db-b5510c4bea67")
+		(property "Reference" "HS2"
+			(at 127 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 127 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 123.4948 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.4948 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b285")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 203.2 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21fcf28-d37e-4afe-bd36-85437214e102")
+		(property "Reference" "HS5"
+			(at 207.01 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 207.01 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm"
+			(at 203.5048 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.5048 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.639"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d24f2f-6d4b-47d2-b9cd-7948c324b286")
+		)
+		(instances
+			(project ""
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "HS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_IGBT_AKL:STGW60V60DF")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a19b0d-c9d8-49b4-9bba-c652c8246a20")
+		(property "Reference" "Q1"
+			(at 127 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600V40A"
+			(at 127 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:TO-220_High"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3d0f1152e66224fa282804db9c407ed3/STGW60V60DF.pdf"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-247 N-IGBT transistor, 600V, 60A, 375W, Alternate KiCAD Library"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.3386"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4771a055-a5e3-41f7-9770-4aeef9fe4ba4")
+		)
+		(pin "3"
+			(uuid "e5df9ded-c112-4cf8-91ff-57eccdd73acc")
+		)
+		(pin "1"
+			(uuid "99e6c989-9cb8-4978-9e6a-a2698693a2f8")
+		)
+		(instances
+			(project "Inverter"
+				(path "/f1ab9695-c1db-4bbd-89bd-4e2618caaa97/d9b8660e-2c03-4493-9c8b-716d060d8326"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

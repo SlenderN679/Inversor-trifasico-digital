@@ -1,0 +1,216 @@
+(footprint "4pin_Magnet_5358"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5360-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 2.54 2.3 0)
+		(layer "F.SilkS")
+		(uuid "995ca2ea-842e-4fba-8085-b73e9db42d62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "4pin_Magnet_5358"
+		(at 2.54 2.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f88db399-d3c3-438a-8d2d-5eee44f79cf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcbe4909-e515-4c12-a72e-6870908e9920")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "733d83f0-a794-4723-9502-08681b7d8d96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.5)
+		(end -1.27 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e9c6a6e-2971-433b-9928-1788a077d145")
+	)
+	(fp_line
+		(start -1.27 -1.4)
+		(end -1.27 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a118aece-7110-4792-a15e-531776d1320b")
+	)
+	(fp_line
+		(start -1.27 -1.4)
+		(end -1.27 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c03156b8-9c85-49ae-b3af-89696de3e0a9")
+	)
+	(fp_rect
+		(start -7.96 1.48)
+		(end 13.04 5.48)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "81f2dced-eb7b-4933-999a-d92d3c317109")
+	)
+	(fp_arc
+		(start -1.27 -1.5)
+		(mid -1.22 -1.45)
+		(end -1.27 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f18b93f-37cc-4bff-a454-c4b3c9e11c5b")
+	)
+	(fp_arc
+		(start -1.27 -1.5)
+		(mid -1.22 -1.45)
+		(end -1.27 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f63fe5-3bbe-485c-9525-d0cb8aafd3a2")
+	)
+	(fp_arc
+		(start -1.27 -1.4)
+		(mid -1.32 -1.45)
+		(end -1.27 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd4d4089-58b7-4495-befb-6f65bd9b29f6")
+	)
+	(fp_rect
+		(start -8.94 -1.91)
+		(end 14.22 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6baa175-e11c-4c4c-b4d4-5dc10672cdf5")
+	)
+	(fp_rect
+		(start -7.96 1.48)
+		(end 13.04 5.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "913f3801-bc34-4ffd-886c-c4566f036671")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 2.3 0)
+		(layer "F.Fab")
+		(uuid "dcb74ecd-e169-42b1-9a18-38e5c9d49a34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2fe416c-af48-41ec-91a5-cb0618f15ac8")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c54abcd6-301b-465b-9588-77eef9830da9")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ac07ea4-0685-4323-adbc-79f13d92119f")
+	)
+	(pad "4" thru_hole circle
+		(at 6.35 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2826515-0d7d-4b8a-939c-53e238df96c3")
+	)
+	(group ""
+		(uuid "4ecf802f-a153-4d5f-af06-c13e8e5f2c6d")
+		(members "2f18b93f-37cc-4bff-a454-c4b3c9e11c5b" "5ac07ea4-0685-4323-adbc-79f13d92119f"
+			"8e9c6a6e-2971-433b-9928-1788a077d145" "a118aece-7110-4792-a15e-531776d1320b"
+			"b2fe416c-af48-41ec-91a5-cb0618f15ac8" "bd4d4089-58b7-4495-befb-6f65bd9b29f6"
+			"c03156b8-9c85-49ae-b3af-89696de3e0a9" "c54abcd6-301b-465b-9588-77eef9830da9"
+			"d6f63fe5-3bbe-485c-9525-d0cb8aafd3a2" "e2826515-0d7d-4b8a-939c-53e238df96c3"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIB_5358/5358/3D/5358.stp"
+		(offset
+			(xyz 2.569999895 -5.469999708 2.239999976)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

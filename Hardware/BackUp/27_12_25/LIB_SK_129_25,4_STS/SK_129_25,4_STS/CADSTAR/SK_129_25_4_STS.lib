@@ -1,0 +1,16 @@
+.SK_129_25_4_STS :1 ;Extruded heatsink for PCB mounting
+SK129254STS
+*STM U
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SK_129_25_4_STS
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Fischer Elektronik GmbH & Co. KG)
+~!Manufacturer_Part_Number (SK 129 25,4 STS)
+~!Link Datasheet (https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml)
+~!Height (-)
+~!3D_Model (SK_129_25,4_STS)
+SK_129_25_4_STS
+1.1!U 2.1!U 

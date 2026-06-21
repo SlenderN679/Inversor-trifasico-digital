@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/19724294/1851573/2.50/2/2/Undefined or Miscellaneous/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="s375_h250" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="98.425196850392">
+    <padshape layer="TOP" shape="square" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="155.51181102362" height="155.51181102362" />
+    <padshape layer="INNER" shape="square" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="BOTTOM" shape="square" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="155.51181102362" height="155.51181102362" />
+  </padstyle>
+  <padstyle name="c375_h250" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="98.425196850392">
+    <padshape layer="TOP" shape="round" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="155.51181102362" height="155.51181102362" />
+    <padshape layer="INNER" shape="round" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="BOTTOM" shape="round" width="147.63779527559" height="147.63779527559" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="155.51181102362" height="155.51181102362" />
+  </padstyle>
+  <footprint name="SK129254STS" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s375_h250" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c375_h250" originx="999.99999999999" originy="0" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-326.7716535433" originy="-492.12598425196" endx="1326.7716535433" endy="-492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="1326.7716535433" originy="-492.12598425196" endx="1326.7716535433" endy="492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="1326.7716535433" originy="492.12598425196" endx="-326.7716535433" endy="492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-326.7716535433" originy="492.12598425196" endx="-326.7716535433" endy="-492.12598425196" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-366.14173228346" originy="531.49606299212" endx="1366.1417322834" endy="531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="1366.1417322834" originy="531.49606299212" endx="1366.1417322834" endy="-531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="1366.1417322834" originy="-531.49606299212" endx="-366.14173228346" endy="-531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-366.14173228346" originy="-531.49606299212" endx="-366.14173228346" endy="531.49606299212" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-326.7716535433" originy="492.12598425196" endx="1326.7716535433" endy="492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="1326.7716535433" originy="492.12598425196" endx="1326.7716535433" endy="-492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="1326.7716535433" originy="-492.12598425196" endx="-326.7716535433" endy="-492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-326.7716535433" originy="-492.12598425196" endx="-326.7716535433" endy="492.12598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-346.45669291338" originy="0" endx="-346.45669291338" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-344.48818897637" originy="0" startangle="-180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-342.51968503937" originy="0" endx="-342.51968503937" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-344.48818897637" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="SK_129_25,4_STS" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="SK_129_25,4_STS" designatorprefix="U" height="0" footprint="SK129254STS">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="SK_129_25,4_STS" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Extruded heatsink for PCB mounting" />
+    <text name="Farnell Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Farnell Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Fischer Elektronik GmbH &amp; Co. KG" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SK 129 25,4 STS" />
+  </component>
+</quadcept_library>

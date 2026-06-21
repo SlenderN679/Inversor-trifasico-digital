@@ -1,0 +1,7 @@
+../Core/Src/SIMUL.c:28:6:DacSim_Init	16	static
+../Core/Src/SIMUL.c:38:6:DacSim_Update_Grid_DC	48	static
+../Core/Src/SIMUL.c:98:6:Simul_Update_Motor_Currents	16	static
+../Core/Src/SIMUL.c:111:7:Simul_Get_I_A	4	static
+../Core/Src/SIMUL.c:112:7:Simul_Get_I_B	4	static
+../Core/Src/SIMUL.c:113:7:Simul_Get_I_C	4	static
+../Core/Src/SIMUL.c:119:7:Simul_Get_I_Grid	16	static

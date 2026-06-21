@@ -1,0 +1,5 @@
+../Core/Src/INTER.c:25:5:Telemetry_Build_JSON	128	static
+../Core/Src/INTER.c:32:5:Raw_Telemetry_Build_JSON	88	static
+../Core/Src/INTER.c:44:5:AFE_Telemetry_Build_JSON	80	static
+../Core/Src/INTER.c:56:5:Inverter_Telemetry_Build_JSON	48	static
+../Core/Src/INTER.c:68:6:Update_Interface	40	static,ignoring_inline_asm

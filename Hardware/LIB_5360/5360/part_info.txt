@@ -1,0 +1,9 @@
+Manufacturer=Adafruit
+PartNumber=5360
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2025-07-06 12:21:03
+Downloaded=2025-12-22 15:09:51
+3D=Y

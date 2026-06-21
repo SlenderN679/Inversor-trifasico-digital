@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK_129_25,4_STS
+D Extruded heatsink for PCB mounting
+K
+F https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml
+$ENDCMP
+#
+#End Doc Library

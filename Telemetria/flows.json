@@ -1,0 +1,1728 @@
+[
+    {
+        "id": "c2546f6fa8f8e33e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "213bb62ccdec77ab",
+        "type": "serial in",
+        "z": "c2546f6fa8f8e33e",
+        "name": "STM32",
+        "serial": "95c889f4d28ea363",
+        "x": 130,
+        "y": 780,
+        "wires": [
+            [
+                "4bdb15a24e3e91dc"
+            ]
+        ]
+    },
+    {
+        "id": "4bdb15a24e3e91dc",
+        "type": "json",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 350,
+        "y": 780,
+        "wires": [
+            [
+                "433731ab93c0b3a3",
+                "5dea538e4cf181d8",
+                "6a376e26c13f8326",
+                "bedb9004b9c79494",
+                "74e1b6b010da52ec",
+                "68504a802c35132d",
+                "70fc146a4c0f2a7a",
+                "2b7afc0906971f74",
+                "84684cbf6755ff48",
+                "d0c03f4fb3c646d5",
+                "872dd38038ad515a",
+                "d9486dab8c1bef69",
+                "5b4780588e2c835e",
+                "9cd043e79d460f9a",
+                "266f0b049310cb54",
+                "bac01712a2aeecf4",
+                "e091e329f4ed3e0e",
+                "90f0960e5e8afc05",
+                "c8132cedb3a8f2f3",
+                "8c139d1310a95cf6",
+                "1cbce0ecab0de52e",
+                "e0312bfedffc94b4"
+            ]
+        ]
+    },
+    {
+        "id": "e0312bfedffc94b4",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_VDC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.vdc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "7ecad8fb68bd92e5",
+                "876b5366420ccc69"
+            ]
+        ]
+    },
+    {
+        "id": "433731ab93c0b3a3",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_Temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 300,
+        "wires": [
+            [
+                "ef05dcbf3e4088b8"
+            ]
+        ]
+    },
+    {
+        "id": "7ecad8fb68bd92e5",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "634f8edb4dead741",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Vdc",
+        "label": "V",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "600",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 890,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ef05dcbf3e4088b8",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "634f8edb4dead741",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temp",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5dea538e4cf181d8",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rVDC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_vdc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "ec3f64447e16340e"
+            ]
+        ]
+    },
+    {
+        "id": "ec3f64447e16340e",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "58d42a5d5337a235",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW Vdc",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6a376e26c13f8326",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rTemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 420,
+        "wires": [
+            [
+                "52023e8dcd010e30"
+            ]
+        ]
+    },
+    {
+        "id": "52023e8dcd010e30",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "58d42a5d5337a235",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bedb9004b9c79494",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_Vgrid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.vgrid",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Voltage",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 540,
+        "wires": [
+            [
+                "6cc2d4b78ab4d647"
+            ]
+        ]
+    },
+    {
+        "id": "74e1b6b010da52ec",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_Igrid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.igrid",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Current",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 600,
+        "wires": [
+            [
+                "79ff7b313ce8a69c",
+                "6cc2d4b78ab4d647",
+                "a03f87c765aa1459"
+            ]
+        ]
+    },
+    {
+        "id": "68504a802c35132d",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rVgrid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_vgrid",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 660,
+        "wires": [
+            [
+                "f81b72512b3f1410"
+            ]
+        ]
+    },
+    {
+        "id": "f81b72512b3f1410",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "58d42a5d5337a235",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW Vgrid",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "70fc146a4c0f2a7a",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rIgrid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_igrid",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 720,
+        "wires": [
+            [
+                "e027c8355d262e33"
+            ]
+        ]
+    },
+    {
+        "id": "e027c8355d262e33",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "58d42a5d5337a235",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW Igrid",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "d9486dab8c1bef69",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_IB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ib",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "IB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1080,
+        "wires": [
+            [
+                "ec9234bc9d7a941c",
+                "39b15b9d9caff12f"
+            ]
+        ]
+    },
+    {
+        "id": "5b4780588e2c835e",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_IC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ic",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "IC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1140,
+        "wires": [
+            [
+                "c89b370e8ce1cc5b",
+                "39b15b9d9caff12f"
+            ]
+        ]
+    },
+    {
+        "id": "cf6fcf0c7d3ed58c",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "IB",
+        "label": "A",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "15",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 910,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "9cd043e79d460f9a",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rIA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_ia",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1200,
+        "wires": [
+            [
+                "4577604c9c1cd86d"
+            ]
+        ]
+    },
+    {
+        "id": "4577604c9c1cd86d",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "2fdedf9d64026116",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW IA",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "266f0b049310cb54",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rIB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_ib",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1260,
+        "wires": [
+            [
+                "fa3909a0e122b5a8"
+            ]
+        ]
+    },
+    {
+        "id": "fa3909a0e122b5a8",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "2fdedf9d64026116",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW IB",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "bac01712a2aeecf4",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_rIC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.r_ic",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1320,
+        "wires": [
+            [
+                "12057cb6350d9f95"
+            ]
+        ]
+    },
+    {
+        "id": "12057cb6350d9f95",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "2fdedf9d64026116",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "RAW IC",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "872dd38038ad515a",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_IA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.ia",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "IA",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1020,
+        "wires": [
+            [
+                "39b15b9d9caff12f"
+            ]
+        ]
+    },
+    {
+        "id": "59b39ef9f2dceb06",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "IA",
+        "label": "A",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "15",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 890,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "e1668d4125045ec2",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "IC",
+        "label": "A",
+        "format": "{{value}}",
+        "min": "-15",
+        "max": "15",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 930,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "79ff7b313ce8a69c",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "b7d2a9471b2af544",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PLL",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-5",
+        "ymax": "5",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a08de7288f502b7",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "db6ff8db435a2d31",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Igrid",
+        "label": "A",
+        "format": "{{value}}",
+        "min": "-40",
+        "max": "40",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "052c540bf9dd38ff",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "db6ff8db435a2d31",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Vgrid",
+        "label": "V",
+        "format": "{{value}}",
+        "min": "350",
+        "max": "450",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 830,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "84684cbf6755ff48",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_Preg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.c_preg",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "901b8f9e126dcd56"
+            ]
+        ]
+    },
+    {
+        "id": "cd3426bffc52d6d5",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "to_State",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.c_state",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b7afc0906971f74",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_iref",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.c_iref",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Current Ref",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 780,
+        "wires": [
+            [
+                "79ff7b313ce8a69c",
+                "a03f87c765aa1459"
+            ]
+        ]
+    },
+    {
+        "id": "901b8f9e126dcd56",
+        "type": "ui_gauge",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "b7d2a9471b2af544",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Power Reg",
+        "label": "W",
+        "format": "{{value}}",
+        "min": "-350",
+        "max": "350",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 910,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "800a461e29f576d3",
+        "type": "ui_text",
+        "z": "c2546f6fa8f8e33e",
+        "group": "b7d2a9471b2af544",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "State",
+        "format": "{{value}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "39b15b9d9caff12f",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Motor Current",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-20",
+        "ymax": "20",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 920,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec9234bc9d7a941c",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "IB",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-15",
+        "ymax": "15",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c89b370e8ce1cc5b",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "d": true,
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "IC",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-15",
+        "ymax": "15",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6cc2d4b78ab4d647",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "db6ff8db435a2d31",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Grid",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "250",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0c03f4fb3c646d5",
+        "type": "function",
+        "z": "c2546f6fa8f8e33e",
+        "name": "MaqEstados",
+        "func": "var state = msg.payload.c_state;\nvar en = msg.payload.c_en;\nvar text = \"DESCONHECIDO\";\n\nif (state === 0) {\n    text = \"STANDBY\";\n} \nelse if (state === 1) {\n    text = \"PRÉ-CARGA\";\n} \nelse if (state === 2) {\n    if (en === 1) {\n        text = \"RUNNING\";\n    } else {\n        text = \"DC READY\";\n    }\n}\n\nmsg.payload = text;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 960,
+        "wires": [
+            [
+                "800a461e29f576d3"
+            ]
+        ]
+    },
+    {
+        "id": "e091e329f4ed3e0e",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_DutyA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.inv_da",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Phase A",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1400,
+        "wires": [
+            [
+                "5c0feca3bdda741c"
+            ]
+        ]
+    },
+    {
+        "id": "90f0960e5e8afc05",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_DutyB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.inv_db",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Phase B",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1460,
+        "wires": [
+            [
+                "5c0feca3bdda741c"
+            ]
+        ]
+    },
+    {
+        "id": "c8132cedb3a8f2f3",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_DutyC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.inv_dc",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Phase C",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1520,
+        "wires": [
+            [
+                "5c0feca3bdda741c"
+            ]
+        ]
+    },
+    {
+        "id": "5c0feca3bdda741c",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "b0b6a19e88859b33",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "SPWM",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1cbce0ecab0de52e",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_DutyR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.afe_d3",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AFE Right",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1600,
+        "wires": [
+            [
+                "a5d998154ab5ebef"
+            ]
+        ]
+    },
+    {
+        "id": "8c139d1310a95cf6",
+        "type": "change",
+        "z": "c2546f6fa8f8e33e",
+        "name": "to_DutyR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.afe_d2",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "AFE Left",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1660,
+        "wires": [
+            [
+                "a5d998154ab5ebef"
+            ]
+        ]
+    },
+    {
+        "id": "a5d998154ab5ebef",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "db6ff8db435a2d31",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "AFE",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a03f87c765aa1459",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "b7d2a9471b2af544",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PLL Wide",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-20",
+        "ymax": "20",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1060,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "876b5366420ccc69",
+        "type": "ui_chart",
+        "z": "c2546f6fa8f8e33e",
+        "name": "",
+        "group": "634f8edb4dead741",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "VDC",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "60",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95c889f4d28ea363",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM8",
+        "serialbaud": "115200",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "634f8edb4dead741",
+        "type": "ui_group",
+        "name": "System",
+        "tab": "88dce77f24e5470b",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "58d42a5d5337a235",
+        "type": "ui_group",
+        "name": "ADC3",
+        "tab": "d356f95139ba2336",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b0b6a19e88859b33",
+        "type": "ui_group",
+        "name": "Motor",
+        "tab": "88dce77f24e5470b",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2fdedf9d64026116",
+        "type": "ui_group",
+        "name": "ADC1",
+        "tab": "d356f95139ba2336",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b7d2a9471b2af544",
+        "type": "ui_group",
+        "name": "PLL",
+        "tab": "88dce77f24e5470b",
+        "order": 5,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db6ff8db435a2d31",
+        "type": "ui_group",
+        "name": "Grid",
+        "tab": "88dce77f24e5470b",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "88dce77f24e5470b",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d356f95139ba2336",
+        "type": "ui_tab",
+        "name": "Debug",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7cdc550d36a080c3",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-serialport": "2.0.3",
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]

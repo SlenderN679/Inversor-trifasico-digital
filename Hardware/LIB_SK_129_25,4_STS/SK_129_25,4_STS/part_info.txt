@@ -1,0 +1,9 @@
+Manufacturer=Fischer Elektronik GmbH & Co. KG
+PartNumber=SK 129 25,4 STS
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2024-07-23 06:14:45
+Downloaded=2025-12-23 16:19:05
+3D=Y

@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5360"
+   (description "Adafruit Accessories DIY Magnetic Connector - Right Angle Three Contact Pins")
+   (family "CON")
+   (package "5360")
+   (attribute "Datasheet Link" "https://cdn-shop.adafruit.com/product-files/5360/5360_C17002_______-1.pdf")
+   (attribute "Geometry.Height" "4.1mm")
+   (attribute "Mouser Part Number" "485-5360")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adafruit/5360?qs=MyNHzdoqoQJC81080TpnoQ%3D%3D")
+   (attribute "Manufacturer_Name" "Adafruit")
+   (attribute "Manufacturer_Part_Number" "5360")
+   (gate
+    (symbol "5360")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "5360"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "5360"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.96 -5.5)
+      (pt 10.04 -5.5)
+      (pt 10.04 -1.5)
+      (pt -4.96 -1.5)
+      (pt -4.96 -5.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.96 1.9)
+      (pt 11.04 1.9)
+      (pt 11.04 -6.5)
+      (pt -5.96 -6.5)
+      (pt -5.96 1.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.96 -5.5)
+      (pt -4.96 -1.5)
+      (pt 10.04 -1.5)
+      (pt 10.04 -5.5)
+      (pt -4.96 -5.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 1.4)
+      (arc (pt 0.000 1.400) (pt -0.050 1.400) (pt 0.050 1.500) (start 180.0) (sweep -90.0))
+      (pt 0 1.5)
+      (arc (pt 0.000 1.500) (pt -0.050 1.400) (pt 0.050 1.500) (start 180.0) (sweep 90.0))
+      (pt 0 1.4)
+      (arc (pt 0.000 1.400) (pt -0.050 1.400) (pt 0.050 1.500) (start 180.0) (sweep -90.0))
+      (pt 0 1.5))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 1
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (square 1.800))
+   )
+   (model "5360.stp"
+    (euler 0 0 0)
+    (offset 2.569999933242798 -5.46999979019165 2.240000009536743)
+   )
+  )
+ )
+)

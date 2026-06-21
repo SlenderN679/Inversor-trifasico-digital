@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5360'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Adafruit", "5360" (!) = "", "5360", "Other", "485-5360", "https://www.mouser.co.uk/ProductDetail/Adafruit/5360?qs=MyNHzdoqoQJC81080TpnoQ%3D%3D", "Adafruit Accessories DIY Magnetic Connector - Right Angle Three Contact Pins", "https://cdn-shop.adafruit.com/product-files/5360/5360_C17002_______-1.pdf", "4.1 mm"
+END_PART
+
+END.

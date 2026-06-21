@@ -1,0 +1,16 @@
+.5360 :1 ;Adafruit Accessories DIY Magnetic Connector - Right Angle Three Contact Pins
+"5360"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 5360
+~!Mouser Part Number (485-5360)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Adafruit/5360?qs=MyNHzdoqoQJC81080TpnoQ%3D%3D)
+~!Manufacturer_Name (Adafruit)
+~!Manufacturer_Part_Number (5360)
+~!Link Datasheet (https://cdn-shop.adafruit.com/product-files/5360/5360_C17002_______-1.pdf)
+~!Height (4.1mm)
+~!3D_Model (5360)
+"5360"
+1.1!U 2.1!U 3.1!U 

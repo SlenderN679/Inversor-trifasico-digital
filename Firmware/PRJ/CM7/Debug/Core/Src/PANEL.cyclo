@@ -1,0 +1,4 @@
+../Core/Src/PANEL.c:41:6:Panel_Init_Sequence	2
+../Core/Src/PANEL.c:48:6:Panel_Draw_Fault_Screen	6
+../Core/Src/PANEL.c:64:6:Panel_Update_UI	46
+../Core/Src/PANEL.c:198:6:HAL_GPIO_EXTI_Callback	4

@@ -1,0 +1,12 @@
+2025-12-22 16:07:53,363 - panelizer_logger - WARNING - 
+START: 2025-12-22T16:07:50.730007
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:\Users\Geral\Desktop\Escola\PCBs\Inverter\Production\Inverter_panelized.kicad_pcb
+Board dimensions: 0.00 x 0.00 mm.
+You can fit 279 x 381 boards on the panel.
+Zones refilled by Panelizer.
+Warning: panel is under 70x70mm. It may be too small to v-score.
+Warning: Ordering Instructions contains default values.
+

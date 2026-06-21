@@ -1,0 +1,93 @@
+
+(EDIF
+  (rename &SK_129_25_4_STS "SK_129_25_4_STS")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 12 23 16 19 05)
+      (dataOrigin "19724294/1851573/2.50/2/2/Undefined or Miscellaneous")
+      (program "SamacSys ECAD Model SK_129_25_4_STS"
+        (version "3.2"))))
+  (library
+  (rename &SK_129_25_4_STS "SK_129_25_4_STS")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SK_129_25_4_STS "SK_129_25_4_STS")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename PACKAGENAME "PackageName") (string "SK_129_25_4_STS"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SK129254STS"))
+          (property (rename &Farnell_Part_Number "Farnell Part Number") (string ""))
+          (property (rename &Farnell_Price_Stock "Farnell Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Fischer Elektronik GmbH & Co. KG"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SK 129 25,4 STS"))
+          (property (rename &Description "Description") (string "Extruded heatsink for PCB mounting"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SK_129_25_4_STS"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 400 0)
+                  (pt 400 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 30))))
+          )
+        )
+      )
+    )
+  )
+)

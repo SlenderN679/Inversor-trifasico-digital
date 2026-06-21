@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-31052023-055863";"";
+"REFERENCE";"IRM-15-15";"";
+"TraceParts.PartVersion";"1.1.4";"";
+"TraceParts.InstanceId";"33-31052023-055863BB4X6W2DRKMES6CG1YI1D6H08";"";
+"VOLTAGE";"15V";"";
+"TraceParts.PartTitle";"AC/DC Open Frame Switching Power Supply - 15W AC-DC PCB-Mount Green Power Module, IRM-15 Series";"";
+"SUPPLIER";"MEAN WELL";"";
+"DESIGN";"AC/DC Open Frame Switching Power Supply, 15W AC-DC PCB-Mount Green Power Module - IRM-15-15";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"POWER";"15W";"";

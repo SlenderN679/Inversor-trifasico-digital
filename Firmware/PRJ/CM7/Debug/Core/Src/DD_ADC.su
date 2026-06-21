@@ -1,0 +1,5 @@
+../Core/Src/DD_ADC.c:38:6:ADC_Init_DMA	16	static
+../Core/Src/DD_ADC.c:58:6:ADC_Process_Data	4	static
+../Core/Src/DD_ADC.c:75:17:ADC_Get_Input_Vector	24	static
+../Core/Src/DD_ADC.c:76:17:ADC_Get_Output_Vector	40	static
+../Core/Src/DD_ADC.c:77:17:ADC_Get_System_Vector	24	static

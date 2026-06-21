@@ -1,0 +1,113 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SK_129_25_4_STS"
+   (description "Extruded heatsink for PCB mounting")
+   (family "ANA")
+   (package "SK129254STS")
+   (attribute "Datasheet Link" "https://www.fischerelektronik.de/web_fischer/en_GB/VA/SK12925.4STS/datasheet.xhtml")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "Fischer Elektronik GmbH & Co. KG")
+   (attribute "Manufacturer_Part_Number" "SK 129 25,4 STS")
+   (gate
+    (symbol "SK_129_25_4_STS")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "SK_129_25_4_STS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SK129254STS"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.3 -12.5)
+      (pt 33.7 -12.5)
+      (pt 33.7 12.5)
+      (pt -8.3 12.5)
+      (pt -8.3 -12.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.3 13.5)
+      (pt 34.7 13.5)
+      (pt 34.7 -13.5)
+      (pt -9.3 -13.5)
+      (pt -9.3 13.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -8.3 12.5)
+      (pt 33.7 12.5)
+      (pt 33.7 -12.5)
+      (pt -8.3 -12.5)
+      (pt -8.3 12.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.8 0)
+      (arc (pt -8.800 0.000) (pt -8.800 -0.050) (pt -8.700 0.050) (start 180.0) (sweep -180.0))
+      (pt -8.7 0)
+      (arc (pt -8.700 0.000) (pt -8.800 -0.050) (pt -8.700 0.050) (start 180.0) (sweep .0))
+      (pt -8.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 25.400 0.000) (padstack 2))
+   (padstack 0
+    (hole 2.5)
+    (plated true)
+    (pad (layer TCOP) (square 3.750))
+    (pad (layer INNER) (round 3.750))
+    (pad (layer BCOP) (square 3.750))
+   )
+   (padstack 2
+    (hole 2.5)
+    (plated true)
+    (pad (layer TCOP) (round 3.750))
+    (pad (layer INNER) (round 3.750))
+    (pad (layer BCOP) (round 3.750))
+   )
+   (model "SK_129_25,4_STS.stp"
+    (euler 0 90 90)
+    (offset 12.699999809265137 0 13.020000457763672)
+   )
+  )
+ )
+)
