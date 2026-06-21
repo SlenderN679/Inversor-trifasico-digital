@@ -28,7 +28,7 @@ O objetivo principal deste sistema é ultrapassar as limitações dos sistemas d
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 * **Hardware Digital:** Microcontrolador STMicroelectronics STM32 NUCLEO-H755ZI-Q.
-* **Sensores e Isolamento:** Transdutores de corrente LEM LA100-P e *gate drivers* optoacoplados HCPL-3120.
+* **Sensores e Isolamento:** Transdutores de corrente e tensão e *gate drivers* optoacoplados HCPL-3120.
 * **Software/Ambientes:** STM32CubeIDE, KiCad EDA, PSIM, Node-RED.
 
 ## ⚠️ Aviso de Segurança
